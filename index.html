@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Learning Git and Github</title>
+</head>
+<!-- The remote repo for this is learningGitWithBrad -->
+<body>
+  <div class="wrap">
+    <h1>Learning Git and Github</h1>
+    <h2>Intro</h2>
+    <p>I have been learning about Git and Github from the Master, Brad Traversy. I watched his YouTube video entitled <a href="https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=34s">Git &amp; GitHub Crash Course For Beginners</a>. The notes here are from that video.</p>
+    <p><b>Notes:</b></p>
+    <ul>
+      <li>Git is a version control system</li>
+      <li>Can revert back to specific	versions of code</li>
+      <li>Local an remote repositories</li>
+      <li>A commit takes a snapshot of the code at that time</li>
+      <li>Can visit any commit at any time</li>
+      <li>You can stage files before committing</li>
+    </ul>
+  <h3>Git commands</h3>
+  <table>
+    <thead>
+      <th>Command</th>
+      <th>Purpose</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>$ git init</td>
+        <td>Initialise a local git repo</td>
+      </tr>
+      <tr>
+        <tr>
+          <td>$ git add <file></file></td>
+          <td>Add file to the index</td>
+        </tr>
+        <tr>
+          <td>$ git add *.html </td>
+          <td>Adds all the html files</td>
+        </tr>
+        <tr>
+          <td>$ git add .</td>
+          <td>Adds everything</td>
+        </tr>
+        <tr>
+          <td>$ git status</td>
+          <td>Check status of working tree</td>
+        </tr>
+        <tr>
+        <td>$ git commit</td>
+        <td>Commit changes in index</td>
+      </tr>
+      <tr>
+        <td>$ git commit -m ’dev notes’</td>
+        <td>Commit with dev comment</td>
+      </tr>
+      <tr>
+        <td>$ git push</td>
+        <td>Push to remote repo</td>
+      </tr>
+      <tr>
+        <td>$ git pull</td>
+        <td>Pull latest from remote repo</td>
+      </tr>
+      <tr>
+        <td>$ git clone 'github clone URL'</td>
+        <td>Clone a repo into a new directory</td>
+      </tr>
+      <tr>
+        <td>$ git -- version</td>
+        <td>Dash dash, get version of git on the computer</td>
+      </tr>
+      <tr>
+        <td>$ git rm cached 'file name'</td>
+        <td>Removes the file</td>
+      </tr>
+      <tr>
+        <td>$ git branch 'branch name'</td>
+        <td>Creates a branch</td>
+      </tr>
+      <tr>
+        <td>$ git checkout 'branch name'</td>
+        <td>Opens the branch</td>
+      </tr>
+      <tr>
+        <td>$ git checkout master</td>
+        <td>Return to master branch</td>
+      </tr>
+      <tr>
+        <td>$ git merge 'branch name'</td>
+        <td>Adds the named branch and its changes to the master</td>
+      </tr>
+    </tbody>
+  </table>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
